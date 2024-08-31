@@ -1,0 +1,25 @@
+
+nav#botoes {
+    border-top: 5px white;
+}
+
+nav#botoes a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+    display: flex;
+    font-family: var(--heading3);
+    font-weight: 600;
+    
+}
+
+nav#botoes ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav#botoes p {
+    border: 1px red;
+}

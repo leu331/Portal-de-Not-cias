@@ -1,0 +1,45 @@
+div#inav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+div#inav h1 {
+   color: var(--brand-color-light);
+   font-family: var(--heading1);
+   padding-left: 70px;
+   
+}
+
+
+div#fmenu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--text-color-primary);
+    padding-right: 300px;
+}
+
+div#fmenu > a {
+    color: var(--text-color-primary);
+    font-family: "Archivo", sans-serif;
+    font-weight:800;
+    font-size: 16px 140%;
+
+}
+
+div#fmenu2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--text-color-primary);
+    padding-left: 325px;
+}
+
+div#fmenu2 > p {
+    color: var(--text-color-primary);
+    font-family: "Archivo", sans-serif;
+    font-weight:800;
+    font-size: 16px 140%;
+}
+
